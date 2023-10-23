@@ -1,0 +1,298 @@
+/*{
+    border: 2px solid red;
+    }
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: hwb(313 23% 17% / 0.1); 
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    
+    transition: color 0.3s;
+    font-family: "Inria Serif", serif;
+}
+
+a:hover {
+    color: #000000; 
+}
+
+
+.navbar {
+    width: 1150%; /* Establece el ancho al 80% del contenedor */
+    height: 30px; /* Establece una altura de 60 píxeles */
+    font-family: "Inria Serif", serif;
+}
+
+
+h3 {
+    color: #fff;
+    font-family: "Inria Serif", serif;
+}
+
+
+/* Estilo CSS personalizado para el botón */
+button {
+    background-color: rgb(179, 48, 150);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rectangulo3 {
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 142, 142); 
+    font-family: "Inria Serif", serif;
+    }
+footer {
+    background-color: rgb(66, 11, 85);
+    color: #fff;
+    padding: 10px;
+}
+
+/* Estilos para la tabla */
+.st3 {
+    
+    border-collapse: collapse;
+    width: auto;
+    }
+   
+    
+.st3 td {
+        padding: 4px;
+        text-align: left;
+        font-size: 23px;
+        color: #63008ac0;
+    }
+
+/* Estilos para los cuadrados */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Estilos para los cuadrados */
+.square {
+    width: 200px;
+    height: 200px;
+    background-color: #f53ce5;
+    margin: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+}
+
+img {
+    max-width: 400%;
+    max-height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+p{
+    font-family: "Inria Serif", serif;
+}
+
+h1{
+    font-family: "Inria Serif", serif;
+}
+
+h5{
+    font-family: "Inria Serif", serif;
+}
+
+
+
+.rectangulo1 {
+    width: auto;
+    height: auto;
+    background-color: rgb(245, 142, 142); 
+    font-family: "Inria Serif", serif;
+    }
+
+
+/* Estilos para la tabla */
+.st {
+    
+    border-collapse: collapse;
+    width: auto;
+    }
+    
+.st td {
+        padding: 4px;
+        text-align: left;
+        font-size: 23px;
+        color: #63008ac0;
+    }
+
+       .square2 {
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        text-align: center;
+        color: #000000;
+        border-radius: 10px;
+        padding: 10px;
+        display: inline-block;
+        margin: 0 100px;
+    }
+
+    .rectangulo2 {
+        width: auto;
+        height: auto;
+        background-color: rgb(245, 142, 142); 
+        font-family: "Inria Serif", serif;
+        left: 100px;
+        }
+
+        .stb {
+            border-collapse: collapse;
+            width: 10px;
+            top: 10px; /* Ajusta la distancia desde la parte superior */
+            right: 10px;
+            
+            }
+            .stb td {
+                padding: 4px;
+                text-align: right;
+                font-size: 23px;
+                color: #63008ac0;
+                margin-left: 100px;
+            }
+
+        .stb tr {
+                padding: 15px;
+                text-align: center;
+                font-size: 23px;
+                color: #63008ac0;
+                margin-left: 100px;
+            }
+
+
+
+
+/* Estilos para la tabla en la parte superior derecha */
+.top-right-table {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la derecha */
+    border-collapse: collapse;
+}
+
+.top-right-table th, .top-right-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.top-right-table th {
+    background-color: #f2f2f2;
+}
+
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Estilo para el enlace "Aviso Legal" */
+footer a#aviso-legal {
+    font-weight: bold;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #470661;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#header {
+    background-color: hwb(313 23% 17% / 0.6);
+    border: 2px solid hwb(0 62% 36% /0.6);
+    text-align: center;
+    padding: 2px;
+    position: relative;
+    width: 1146px;
+    height: 80px;
+}
+.rectangulo {
+width: 1146px;
+height: 440px;
+background-color: hwb(313 23% 17% / 0.6); 
+font-family: "Inria Serif", serif;
+}
+
+
+#imagen-superior-izquierda {
+    position: absolute;
+    left: 0;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+#imagen-centro {
+    display: inline-block;
+}
+#imagen-superior-derecha {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-left: 100px;
+    margin-top: 13px;
+}
+
+table {
+        color: white;
+        width: 621px; /* Ancho de la tabla al 100% del contenedor */
+        height: 230px; /* Altura de la tabla al 100% del alto de la ventana gráfica */
+        text-align: center; /* Centro del contenido horizontalmente */
+        vertical-align: middle; /* Centro del contenido verticalmente */
+        /*border: 1px solid black;*/
+    }
+    td {
+        font-size: 80px; /* Tamaño grande del texto */
+    }    
+
+#imagen7{
+    margin-left: 100px;
+    margin-top: 13px;
+}    
+
+#wa{
+    width: 50px;
+    height: 50px;
+}
