@@ -51,10 +51,10 @@
                 <button id="miBoton">BOOK A CONSULATION</button>
             </center>
     </div>
-    <section>
-        <div class="rectangulo3"> 
+    <section class="seccion2">
+        <div id="listaservicios" class="rectangulo3"> 
             <center>
-            <div class="square1">
+            <!-- -<div class="square1"> 
                 <img src="imagenes/Vector (1).png"  alt="Imagen 1">
                 <p>General Dermatoligy</p>
             </div>
@@ -66,10 +66,8 @@
                 <img src="imagenes/33.png"  alt="Imagen 1"> 
                 <p>Continuous Monitoring</p>                    
             </div>
-            </center>
-                    
-                    
-                    
+            </center>                 
+            -->
             
             
         </div>        
@@ -78,7 +76,7 @@
     <section>
         <div class="rectangulo1">
                 <center>
-                    <a href="#seccion-destino"><h1>About Us </h1></a>
+                    <a href="#seccion-destino"><h1 class="about">About Us </h1></a>
                     <table class="st">
                     <tr>
                     <td>
@@ -109,14 +107,9 @@
             <center>
             <img id="imagen7" src="imagenes/image 7.png" alt="img7">
                 <br>
-                <table class="stb">
-                <tr>
-                <td>
+                <h1>
                     Board-certified specialists in general dermatology
-                </td>
-                </tr>
-                </table>
-                <h1 id="seccion-destino">Sección de Destino</h1>
+                </h1>
                     <p>Haircare: From trendy cuts to vibrant color treatments,
                     our skilled hairstylists are here to transform your look.
                     Skincare: Rejuvenate your skin with our facials, peels,
@@ -127,42 +120,40 @@
                 <button id="miBoton">MORE DETAILS</button>
             </center>
         </div>            
-    </div>
-    </section>
-
-    <h1 id="seccion-destino">Sección de Destino</h1>
-    <p>Este es el contenido de la sección de destino.</p>
-
-
+    </div> 
     <footer>
         <div class="containerx">
             <div class="row">
                 <div class="col-md-6">
-                    <h3>Contacto us</h3> 
+                    <p>Ubicación</p> 
                     <img src="imagenes/Group 8680.png" alt="ubi">
-                    <p>Address:196 West 21h</p>
+                    <p>Cra 4 # 12B-70</p>
                     <img src="" alt="">
                     <br>
                     <img src="imagenes/Group 8679.png" alt="">
-                    <p>Phone:  +123 4567 8910</p>
+                    <p>Telefono:3163456598</p>
                     <a href="https://wa.me/573203809885">
                         <img id="wa" src="imagenes/whatsapp.png" alt="Imagen wa">
                     </a> 
                     <p><a href="https://wa.me/573203809885">Whatsapp</a></p>
                 </div>
                 <div class="col-md-6">
-                    <form>
+                    <form id="idFormulario">
                         <div class="mb-3">
+                            <!-- <input type="text" placeholder="Digita tu usuario" id="usuario" /> -->
                             <label for="nombre" class="form-label">Name</label>
                             <input type="text" class="form-control" id="nombre" placeholder="Tu Nombre">
+                            <span id="nombreError" class="color-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="email" placeholder="Tu Correo Electrónico">
+                            <span id="emailError" class="color-error"></span>
                         </div>
                         <div class="mb-3">
                             <label for="mensaje" class="form-label">Messages</label>
                             <textarea class="form-control" id="mensaje" rows="4" placeholder="Tu Mensaje"></textarea>
+                            <span id="mensajeError" class="color-error"></span>
                         </div>
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
@@ -174,5 +165,11 @@
         <a href="About.html">About</a>
         <a href="Contact.html">Contact</a>
     </footer>
+    <script src="script.js">
+    </script>
+    <script> 
+            const formulario = new ValidadorFormulario('idFormulario');
+    </script>
+    <script src="scriptlistaservicios.js"></script>
 </body>
 </html>

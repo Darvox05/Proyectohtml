@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Registro de Soporte</title>
+</head>
+<body>
+    <h2>Formulario de Registro de Soporte</h2>
+    <form action="procesar_registro_soporte.php" method="post">
+        <label for="nombre_analista">Nombre del Analista:</label>
+        <input type="text" id="nombre_analista" name="nombre_analista" required><br><br>
+        
+        <label for="numero_caso">Número de Caso:</label>
+        <input type="text" id="numero_caso" name="numero_caso" required><br><br>
+
+        <label for="fecha">Fecha del Soporte:</label>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="descripcion">Descripción del Soporte:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="4" cols="50" required></textarea><br><br>
+        
+        <label for="tiempo_resolucion">Tiempo de Resolución (en minutos):</label>
+        <input type="number" id="tiempo_resolucion" name="tiempo_resolucion" required><br><br>
+        
+        <input type="submit" value="Registrar Soporte">
+    </form>
+</body>
+</html>
+Este formulario permitirá a los analistas de la mesa de ayuda registrar información sobre cada caso de soporte que resuelven. Los campos incluyen el nombre del analista, el número de caso, la fecha del soporte, una descripción del problema y el tiempo de resolución en minutos. Una vez que completen el formulario y hagan clic en "Registrar Soporte", los datos se enviarán a un archivo llamado "procesar_registro_soporte.php" (que debes crear para procesar la información).
+
+Asegúrate de realizar una gestión adecuada de los datos registrados y considera implementar una base de datos para almacenar y rastrear la información de manera más eficiente. También puedes generar informes a partir de estos registros para obtener métricas sobre la cantidad de casos resueltos y los tiempos de resolución.
+
+
+
+
+
+
+
+
+
+

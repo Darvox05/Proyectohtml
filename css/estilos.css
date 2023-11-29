@@ -1,7 +1,6 @@
-/*{
+{
     border: 2px solid red;
-    }
-*/
+}
 
 nav {
     background-color: hwb(313 23% 17% / 0.1); 
@@ -70,7 +69,6 @@ footer {
     border-collapse: collapse;
     width: auto;
     }
-   
     
 .st3 td {
         padding: 4px;
@@ -79,7 +77,7 @@ footer {
         color: #63008ac0;
     }
 
-/* Estilos para los cuadrados */
+Estilos para los cuadrados 
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -128,7 +126,7 @@ h5{
 
 
 .rectangulo1 {
-    width: auto;
+    width: 100%;
     height: auto;
     background-color: rgb(245, 142, 142); 
     font-family: "Inria Serif", serif;
@@ -148,7 +146,7 @@ h5{
         color: #63008ac0;
     }
 
-       .square2 {
+.square2 {
         background-color: rgb(255, 255, 255);
         margin: 0px;
         text-align: center;
@@ -159,15 +157,15 @@ h5{
         margin: 0 100px;
     }
 
-    .rectangulo2 {
-        width: auto;
+.rectangulo2 {
+        width: 100%;
         height: auto;
         background-color: rgb(245, 142, 142); 
         font-family: "Inria Serif", serif;
         left: 100px;
         }
 
-        .stb {
+.stb {
             border-collapse: collapse;
             width: 10px;
             top: 10px; 
@@ -288,4 +286,38 @@ table {
 #wa{
     width: 50px;
     height: 50px;
+}
+
+
+
+.error-input {
+    border: 9px solid red;
+    display: block;
+}
+
+.color-error {
+    color: red;
+    border: 1px;
+}
+
+
+#listaservicios {
+ margin-left: 250px;
+ font-size: 50px;
+ color: white;
+}
+
+
+.seccion2 {
+background-color: rgb(245, 142, 142);
+padding-bottom: 50px;
+}
+
+.square1 {
+    border: 2px solid white;
+    padding: 20px;
+}
+
+.about {
+    margin-top: 100px;
 }

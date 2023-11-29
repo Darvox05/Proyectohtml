@@ -1,0 +1,18 @@
+{
+    "tarjetas": [
+        {
+            "imagen":"imagenes/Vector (1).png",
+            "texto": "General Dermatoligy"
+        },
+
+        {
+            "imagen":"imagenes/Group 2.png",
+            "texto": "Mole Check"
+        },
+
+        {
+            "imagen":"imagenes/33.png",
+            "texto": "Continuous Monitoring"
+        }        
+    ]
+}
