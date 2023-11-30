@@ -4,8 +4,8 @@
     <title>Amber Cosmetics</title>
     <meta charset="UTF-8">
     <meta name="viewport" content=width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <style>
         body {
@@ -102,25 +102,31 @@
         </div>
     </section>
 
-    <section>
-        <div class="rectangulo2">
-            <center>
-            <img id="imagen7" src="imagenes/image 7.png" alt="img7">
-                <br>
-                <h1>
-                    Board-certified specialists in general dermatology
-                </h1>
-                    <p>Haircare: From trendy cuts to vibrant color treatments,
-                    our skilled hairstylists are here to transform your look.
-                    Skincare: Rejuvenate your skin with our facials, peels,
-                    and anti-aging treatments.</p>
-                    <p>No matter which service you choose, 
-                    we ensure a pampering experience that 
-                    will leave you feeling refreshed and beautiful.</p>
-                <button id="miBoton">MORE DETAILS</button>
-            </center>
-        </div>            
-    </div> 
+    <div class="rectangulo2">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <!-- Image section -->
+                <img id="imagen7" src="imagenes/image 7.png" alt="img7">
+              </div>
+              <div class="col-md-6">
+                <!-- Text section -->
+                <h1>Board-certified specialists in general dermatology</h1>
+                <div class="service">
+                  <h2>Haircare:</h2>
+                  <p>From trendy cuts to vibrant color treatments, our skilled hairstylists are here to transform your look.</p>
+                </div>
+                <div class="service">
+                  <h2>Skincare:</h2>
+                  <p>Rejuvenate your skin with our facials, peels, and anti-aging treatments.</p>
+                </div>
+                <p>No matter which service you choose, we ensure a pampering experience that will leave you feeling refreshed and beautiful.</p>
+                <a href="#" class="btn btn-primary">MORE DETAILS</a>
+              </div>
+            </div>
+          </div>
+          
+    </div>
     <footer>
         <div class="containerx">
             <div class="row">
@@ -147,7 +153,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Tu Correo Electrónico">
+                            <input type="text" class="form-control" id="email" placeholder="Tu Correo Electrónico">
                             <span id="emailError" class="color-error"></span>
                         </div>
                         <div class="mb-3">

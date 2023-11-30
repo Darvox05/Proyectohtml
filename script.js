@@ -48,11 +48,10 @@ validarFormulario() {
         this.nombre.classList.remove('error-input');
     }
 
-
-
+    var rgxEmail = /^\S+@\S+\.\S+$/;
     // Validacion del email
-    if (this.email.value === '') {
-        this.emailError.textContent = 'Email es obligatoria';
+    if (!rgxEmail.test(this.email.value)) {
+        this.emailError.textContent = 'Email es obligatoria o el formato incorrecto';
         this.email.classList.add('error-input');
         valid = false;
     }else {
