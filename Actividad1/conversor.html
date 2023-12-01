@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Unidades</title>
+    <!-- Incluir Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 20px;
+        }
+        .container {
+            max-width: 500px;
+        }
+        .btn-primary {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Conversor de Unidades</h1>
+        <form id="conversionForm">
+            <div class="form-group">
+                <input type="number" id="cantidad" class="form-control" placeholder="Ingresa la cantidad" required>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <select id="unidadOrigen" class="form-control">
+                        <option value="litros">Litros</option>
+                        <option value="centilitros">Centilitros</option>
+                        <option value="decilitros">Decilitros</option>
+                        <option value="galones">Galones</option>
+                        <option value="onzas">Onzas</option>
+                    </select>
+                </div>
+                <div class="col-auto my-1">
+                    a
+                </div>
+                <div class="col">
+                    <select id="unidadDestino" class="form-control">
+                        <option value="litros">Litros</option>
+                        <option value="centilitros">Centilitros</option>
+                        <option value="decilitros">Decilitros</option>
+                        <option value="galones">Galones</option>
+                        <option value="onzas">Onzas</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3">Convertir</button>
+        </form>
+        <p id="resultado" class="mt-3"></p>
+    </div>
+
+    <script src="conversor.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
